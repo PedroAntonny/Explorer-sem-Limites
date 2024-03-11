@@ -1,0 +1,121 @@
+@media (min-width: 360px) {
+  #hero .hero-cta,
+  #hero .astronaut {
+    text-align: center;
+  }
+  #cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #cards .card-content {
+    text-align: center;
+  }
+}
+
+@media (min-width: 700px) {
+  #cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  #cards > section:first-child {
+    grid-column: 1 / span 2;
+  }
+  #cards > section:nth-child(2) {
+    grid-column: 3 / span 2;
+  }
+  #cards > section:last-child {
+    grid-column: 2 / span 2;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 5.8rem;
+  }
+  #hero .hero-cta p {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    margin-bottom: 17.9rem;
+  }
+  #hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2.9rem 10.3rem 10.9rem;
+  }
+  #hero .hero-cta {
+    order: 1;
+    margin-top: 31.2rem;
+  }
+  #hero .astronaut {
+    order: 2;
+  }
+  #hero .hero-cta p {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    margin-bottom: 17.9rem;
+  }
+  #hero .hero-cta .button-down {
+    margin: 0;
+  }
+  #cards {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6rem;
+    padding: 6.4rem 7rem 8rem;
+  }
+  #cards > section:first-child {
+    grid-column: 1 / 2;
+  }
+  #cards > section:nth-child(2) {
+    grid-column: 2 / 3;
+  }
+  #cards > section:last-child {
+    grid-column: 3 / 4;
+  }
+  #contact {
+    padding: 7.8rem 11.1rem 6.5rem;
+  }
+  footer p {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 5.8rem;
+    line-height: 7.3rem;
+    margin: 0 0 0.8rem;
+  }
+  #cards {
+    padding: 6.4rem 11.1rem 8rem;
+  }
+  #cards .card {
+    padding: 3.2rem;
+    border-radius: 2.4rem;
+  }
+  #cards .card img {
+    width: 9.7rem;
+    margin-bottom: 4rem;
+  }
+  #contact {
+    display: flex;
+    align-items: center;
+    gap: 9.2rem;
+    padding: 0;
+    height: 62.2rem;
+    margin: 0 auto;
+    background: url('/assets/stars.svg') no-repeat right;
+  }
+  #contact form {
+    flex: 1;
+    margin-left: 10.9rem;
+  }
+  #contact .starts {
+    flex: 1;
+  }
+}

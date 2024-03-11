@@ -1,0 +1,12 @@
+footer {
+  padding: 3.2rem 1.6rem;
+  background: var(--gradient-background);
+}
+
+footer p {
+  font-size: 1.9rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  text-align: center;
+  color: var(--white);
+}
