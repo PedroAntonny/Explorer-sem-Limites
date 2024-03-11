@@ -1,5 +1,5 @@
 <div align="center">
-	<h1 align="center">Flutuar</h1>
+	<h1 align="center">Explorer sem Limites</h1>
 	<p align="center">Aplicação desenvolvida num desafio de recriação de layout, lançado no curso Explorer 3.0 da Rocketseat no Stage 4, na qual foi disponibilizado um design no figma.</p>
 </div>
 <h3  align="center">
